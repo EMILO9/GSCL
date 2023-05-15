@@ -1,0 +1,34 @@
+{
+  "name": "gscl",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/gscl.umd.js",
+  "module": "./dist/gscl.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/gscl.es.js",
+      "require": "./dist/gscl.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.3.2",
+    "vitepress": "^1.0.0-alpha.75"
+  }
+}
