@@ -1,2 +1,9 @@
+[Documentation](https://emilo9.github.io/GSCL/)
 
-[Documentation] https://emilo9.github.io/GSCL/
+## How to set-up on your own machine:
+```
+git clone https://github.com/EMILO9/GSCL.git
+cd gscl
+npm install
+code .
+```
