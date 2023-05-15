@@ -1,5 +1,4 @@
-[Documentation](https://emilo9.github.io/GSCL/)
-[NPM]()
+[Documentation](https://emilo9.github.io/GSCL/) | [NPM]()
 
 ## How to set-up on your own machine:
 ```
