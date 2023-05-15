@@ -7,3 +7,14 @@ cd gscl
 npm install
 code .
 ```
+main.js
+```
+const { createApp } = require('vue');
+import App from "./App.vue";
+
+import GSCL from "gscl";
+import 'gscl/dist/style.css'
+
+
+createApp(App).use(GSCL).mount("#app");
+```
