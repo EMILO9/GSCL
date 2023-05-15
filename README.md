@@ -1,12 +1,5 @@
 [Documentation](https://emilo9.github.io/GSCL/) | [NPM]() | [Testing](https://stackblitz.com/edit/vue-psxzbw?file=src%2FApp.vue)
 
-## How to set-up on your own machine:
-```
-git clone https://github.com/EMILO9/GSCL.git
-cd gscl
-npm install
-code .
-```
 main.js
 ```
 const { createApp } = require('vue');
@@ -17,4 +10,14 @@ import 'gscl/dist/style.css'
 
 
 createApp(App).use(GSCL).mount("#app");
+```
+App.vue
+```
+<template>
+  <div id="app">
+    <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GSCLButton/>
+  </div>
+</template>
 ```
