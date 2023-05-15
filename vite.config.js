@@ -4,7 +4,6 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/gscl/",
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
